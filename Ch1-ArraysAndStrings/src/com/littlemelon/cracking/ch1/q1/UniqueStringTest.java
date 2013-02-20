@@ -15,9 +15,13 @@ public class UniqueStringTest {
 	@Test
 	public void testIsUnique() {
 		us.setS("abcdefghijklmn");
-		Assert.assertEquals(true, us.isUnique());
+		Assert.assertEquals(true, us.isUnique1());
+		Assert.assertEquals(true, us.isUnique2());
+		Assert.assertEquals(true, us.isUnique3());
 		us.setS("ssssdgsdseg");
-		Assert.assertEquals(false,us.isUnique());
+		Assert.assertEquals(false, us.isUnique1());
+		Assert.assertEquals(false, us.isUnique2());
+		Assert.assertEquals(false, us.isUnique3());
 		
 	}
 
