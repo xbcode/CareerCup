@@ -16,5 +16,5 @@ q6: Given a image represented by an N*N matrix, where each pixel in the image is
 
 q7: Write an algorithm such that if an element in an M*N matrix is 0, its entire row and column are set to 0.
 
-q8: Assume you have a method isSubstring which checks if one work is a substring of another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using onlu one call to isSubstring
+q8: Assume you have a method isSubstring which checks if one work is a substring of another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring
 e.g. "waterbottle" is a rotation of "erbottlewat"
