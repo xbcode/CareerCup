@@ -1,5 +1,7 @@
 package com.littlemelon.craking.ch1.q6;
 
+import com.littlemelon.cracking.utils.ImgUtil;
+
 public class RotateImg {
 	
 	//Execution O(N*N)
@@ -23,21 +25,11 @@ public class RotateImg {
 		}
 	}
 	
-	public static void printImg(int[][] img,int n){
-		for(int i=0;i<3;i++){
-			for(int j=0;j<3;j++)
-			{
-				System.out.print(img[i][j]+" ");
-			}
-			System.out.println();
-		}
-		System.out.println();
-	}
 	public static void main(String arg[]){
 		int[][] img={{0,1,2},{3,4,5},{6,7,8}};
-		printImg(img,3);
+		ImgUtil.printImg(img);
 		rotateImg(img,3);
-		printImg(img,3);
+		ImgUtil.printImg(img);
 
 	}
 }
