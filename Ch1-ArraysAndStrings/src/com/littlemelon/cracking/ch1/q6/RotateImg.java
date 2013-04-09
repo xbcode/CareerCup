@@ -1,4 +1,4 @@
-package com.littlemelon.craking.ch1.q6;
+package com.littlemelon.cracking.ch1.q6;
 
 import com.littlemelon.cracking.utils.ImgUtil;
 

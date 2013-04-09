@@ -1,4 +1,4 @@
-package com.littlemelon.craking.ch1.q8;
+package com.littlemelon.cracking.ch1.q8;
 
 import junit.framework.Assert;
 

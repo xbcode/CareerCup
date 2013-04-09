@@ -1,4 +1,4 @@
-package com.littlemelon.craking.ch1.q8;
+package com.littlemelon.cracking.ch1.q8;
 
 public class RotateString {
 	public static boolean isRotation(String s1,String s2){
