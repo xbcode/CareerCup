@@ -1,4 +1,6 @@
 Q1: Write code to remove duplicates form an unsorted linked list.
 How would your solve this problem if a temporary buffer is not allowed?
 
-Q2: 
+Q2: Implement an algorithm to find the kth to last element of a singly linked list.
+
+Q3: Implement an algorithm to delete a node in the middle of a singly link
